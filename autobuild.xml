@@ -12,7 +12,7 @@
       <key>description</key>
       <string>tinyexr import library</string>
       <key>license</key>
-      <string>MIT</string>
+      <string>3-clause BSD</string>
       <key>license_file</key>
       <string>LICENSES/tinyexr_license.txt</string>
       <key>name</key>
@@ -44,10 +44,8 @@
           </map>
           <key>manifest</key>
           <array>
-            <string>include/tinyexr/stb_image.h</string>
-            <string>include/tinyexr/stb_image_write.h</string>
-            <string>include/tinyexr/tiny_gltf.h</string>
-            <string>include/tinyexr/json.hpp</string>
+            <string>include/tinyexr/tinyexr.cc</string>
+            <string>include/tinyexr/tinyexr.h</string>
             <string>LICENSES/tinyexr_license.txt</string>
             <string>include/tinyexr/tinyexr_version.txt</string>
           </array>

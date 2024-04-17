@@ -29,12 +29,10 @@ tinyexr_SOURCE_DIR="tinyexr"
 
 pushd "$tinyexr_SOURCE_DIR"
     mkdir -p "$stage/include/tinyexr"
-    cp -a tiny_gltf.h "$stage/include/tinyexr"
-    cp -a stb_image.h "$stage/include/tinyexr"
-    cp -a stb_image_write.h "$stage/include/tinyexr"
-    cp -a json.hpp "$stage/include/tinyexr"
+    cp -a tinyexr.cc "$stage/include/tinyexr"
+    cp -a tinyexr.h "$stage/include/tinyexr"
     mkdir -p "$stage/LICENSES"
-    cp -a LICENSE "$stage/LICENSES/tinyexr_license.txt"
+    cp -a ../LICENSE.tinyexr "$stage/LICENSES/tinyexr_license.txt"
     echo "v1.0.8" > "$stage/include/tinyexr/tinyexr_version.txt"
 popd
 
