@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<llsd>
+<map>
+    <key>configuration</key>
+    <string>RelWithDebInfo</string>
+    <key>package_description</key>
+    <map>
+      <key>canonical_repo</key>
+      <string>https://git.alchemyviewer.org/alchemy/thirdparty/3p-tinyexr</string>
+      <key>copyright</key>
+      <string>Copyright (c) 2014 - 2021, Syoyo Fujita and many contributors.</string>
+      <key>description</key>
+      <string>tinyexr import library</string>
+      <key>license</key>
+      <string>MIT</string>
+      <key>license_file</key>
+      <string>LICENSES/tinyexr_license.txt</string>
+      <key>name</key>
+      <string>tinyexr</string>
+      <key>platforms</key>
+      <map>
+        <key>common</key>
+        <map>
+          <key>build_directory</key>
+          <string>stage</string>
+          <key>configurations</key>
+          <map>
+            <key>RelWithDebInfo</key>
+            <map>
+              <key>build</key>
+              <map>
+                <key>command</key>
+                <string>bash</string>
+                <key>options</key>
+                <array>
+                  <string>../build-cmd.sh</string>
+                </array>
+              </map>
+              <key>default</key>
+              <string>true</string>
+              <key>name</key>
+              <string>RelWithDebInfo</string>
+            </map>
+          </map>
+          <key>manifest</key>
+          <array>
+            <string>include/tinyexr/stb_image.h</string>
+            <string>include/tinyexr/stb_image_write.h</string>
+            <string>include/tinyexr/tiny_gltf.h</string>
+            <string>include/tinyexr/json.hpp</string>
+            <string>LICENSES/tinyexr_license.txt</string>
+            <string>include/tinyexr/tinyexr_version.txt</string>
+          </array>
+        </map>
+      </map>
+      <key>source</key>
+      <string>https://git.alchemyviewer.org/alchemy/thirdparty/3p-tinyexr</string>
+      <key>source_directory</key>
+      <string>.</string>
+      <key>source_type</key>
+      <string>git</string>
+      <key>version_file</key>
+      <string>include/tinyexr/tinyexr_version.txt</string>
+    </map>
+    <key>type</key>
+    <string>autobuild</string>
+    <key>version</key>
+    <string>1.3</string>
+  </map>
+</llsd>
