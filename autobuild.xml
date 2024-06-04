@@ -6,7 +6,7 @@
     <key>package_description</key>
     <map>
       <key>canonical_repo</key>
-      <string>https://git.alchemyviewer.org/alchemy/thirdparty/3p-tinyexr</string>
+      <string>https://github.com/secondlife/3p-tinyexr</string>
       <key>copyright</key>
       <string>Copyright (c) 2014 - 2021, Syoyo Fujita and many contributors.</string>
       <key>description</key>
@@ -52,7 +52,7 @@
         </map>
       </map>
       <key>source</key>
-      <string>https://git.alchemyviewer.org/alchemy/thirdparty/3p-tinyexr</string>
+      <string>https://github.com/secondlife/3p-tinyexr</string>
       <key>source_directory</key>
       <string>.</string>
       <key>source_type</key>
