@@ -17,6 +17,8 @@
       <string>LICENSES/tinyexr_license.txt</string>
       <key>name</key>
       <string>tinyexr</string>
+      <key>use_scm_version</key>
+      <boolean>true</boolean>
       <key>platforms</key>
       <map>
         <key>common</key>
@@ -47,7 +49,6 @@
             <string>include/tinyexr/tinyexr.cc</string>
             <string>include/tinyexr/tinyexr.h</string>
             <string>LICENSES/tinyexr_license.txt</string>
-            <string>include/tinyexr/tinyexr_version.txt</string>
           </array>
         </map>
       </map>
@@ -57,8 +58,6 @@
       <string>.</string>
       <key>source_type</key>
       <string>git</string>
-      <key>version_file</key>
-      <string>include/tinyexr/tinyexr_version.txt</string>
     </map>
     <key>type</key>
     <string>autobuild</string>
