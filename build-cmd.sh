@@ -15,7 +15,7 @@ if [ -z "$AUTOBUILD" ] ; then
     exit 1
 fi
 
-if [ "$OSTYPE" = "cygwin" ] ; then
+if [[ "$OSTYPE" == "cygwin" || "$OSTYPE" == "msys" ]] ; then
     autobuild="$(cygpath -u $AUTOBUILD)"
 else
     autobuild="$AUTOBUILD"
@@ -33,6 +33,5 @@ pushd "$tinyexr_SOURCE_DIR"
     cp -a tinyexr.h "$stage/include/tinyexr"
     mkdir -p "$stage/LICENSES"
     cp -a ../LICENSE.tinyexr "$stage/LICENSES/tinyexr_license.txt"
-    echo "v1.0.8" > "$stage/include/tinyexr/tinyexr_version.txt"
 popd
 
